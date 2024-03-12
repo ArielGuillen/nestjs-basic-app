@@ -1,0 +1,9 @@
+version: "2.4"
+
+services:
+  app:
+    image: nestjs-basic-app
+    build:
+      context: .
+    ports:
+      - "4000:4000"
